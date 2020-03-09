@@ -82,7 +82,7 @@ router.post('/register',registerValidation, async(req,res)=>{
         })
         await user.save();
         res.redirect('/auth/login#login')
-        transporter.sendMail(reqMail(email),(err,data)=>{
+        transporter.sendMail(reqMail(email,name),(err,data)=>{
             if(err){
                 console.log(err)
             }
