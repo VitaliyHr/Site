@@ -35,17 +35,7 @@ router.delete('/remove/:id',auth, async (req, res) => {
   res.status(200).json(cart)
 })
 
-router.post('/remove',auth,async(req,res)=>{
-  await req.user.removeFromCart(req.body.id)
-  const user=await req.user.populate('cart.items.courseId').execPopulate()
-  const courses=await mapCartItems(user.cart)
-  res.render('card',{
-    title: 'Корзина',
-    isCard: true,
-    courses: courses,
-    price: computePrice(courses)
-  })
-})
+
 
 router.get('/',auth, async (req, res) => {
   const user = await req.user

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2327d41b-9886-4970-b97f-4c597920ee21" name="Default Changelist" comment="" />
+    <list default="true" id="2327d41b-9886-4970-b97f-4c597920ee21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/card.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/card.hbs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
       <updated>1583781174868</updated>
       <workItem from="1583781177547" duration="3000" />
       <workItem from="1583835880222" duration="3000" />
+      <workItem from="1583855903062" duration="3000" />
     </task>
     <servers />
   </component>
