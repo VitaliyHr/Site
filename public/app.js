@@ -48,6 +48,7 @@ document.querySelectorAll('.date').forEach(node => {
 //                   <button class="btn btm-small js-remove" data-id="${c.id}">Удалить</button>
 //                 </td>
 //               </tr>
+//              <input type="hidden" value="{{csrf}}" name="_csrf">
 //               `
 //             }).join('')
 //             $card.querySelector('tbody').innerHTML = html
